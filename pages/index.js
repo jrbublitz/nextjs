@@ -9,9 +9,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.h1}>
-          Coming soon !
-        </h1>
+        <blockquote className={styles.blockquote}>
+          <h5>Be patient outsider. We need to wait for the scout group to come back, they'll be back soon. Here take a beer.</h5>
+        </blockquote>
+        <a className={styles.emoji}>🧝🏻‍♂</a>
       </main>
     </div>
   )

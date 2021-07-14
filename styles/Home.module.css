@@ -18,8 +18,16 @@
   background-color: black;
 }
 
-.h1 {
-  color: white;
+.blockquote{
+  border-left: .25em solid;
+  padding: 0 1em;
+  margin-left: 0px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.emoji{
+  font-size: 100px;
 }
 
 .footer {
