@@ -10,7 +10,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <blockquote className={styles.blockquote}>
-          <h5>Be patient outsider. We need to wait for the scout group to come back, they'll be back soon. Here take a beer.</h5>
+          <h5>Be patient outsider. We need to wait for the scout group to come back for more information, they will be back soon. Here take a beer.</h5>
         </blockquote>
         <a className={styles.emoji}>🧝🏻‍♂</a>
       </main>
