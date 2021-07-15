@@ -28,7 +28,7 @@
 
 .blockquote h5{
   overflow: hidden; 
-  white-space: inherit; 
+  white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
