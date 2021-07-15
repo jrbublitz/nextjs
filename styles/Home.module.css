@@ -26,9 +26,9 @@
   font-family: fantasy;
 }
 
-.blockquote h5{
+.blockquote {
   overflow: hidden; 
-  white-space: pre-wrap; 
+  white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
