@@ -6,7 +6,7 @@ const skommaTime = () => {
 
       <main className={styles.main}>
         <blockquote className={styles.blockquote}>
-          <h5>LET'S DRINK SKOOOOMAAAA !!!</h5>
+          <h5>HELLO OUTSIDERRR, LET'S DRINK SKOOOOMAAAA !!!</h5>
         </blockquote>
         <a className={styles.emoji}>🍺🦁</a>
       </main>
