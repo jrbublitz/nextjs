@@ -28,6 +28,7 @@
 
 .blockquote h5{
   overflow: hidden; 
+  white-space: pre-line; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
@@ -38,12 +39,13 @@
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 95% }
+  to { width: 100% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
+  50% { border-color: gray }
 }
 
 .emoji{
