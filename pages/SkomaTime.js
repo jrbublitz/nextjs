@@ -1,3 +1,5 @@
+import styles from '../styles/Home.module.css'
+
 const skommaTime = () => {
   return (
     <div className={styles.container}>
