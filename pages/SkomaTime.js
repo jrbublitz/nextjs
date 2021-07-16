@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import Typical from 'react-Typical'
+import Typical from 'react-typical'
 
 const skommaTime = () => {
   return (
