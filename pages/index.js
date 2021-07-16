@@ -14,6 +14,11 @@ export default function Home() {
         </blockquote>        
         <a className={styles.emoji}>🍺🧝🏻‍♂</a>
       </main>
-    </div>
+      
+      <footer className={styles.footer}>        
+        <a href="https://github.com/jrbublitz"><img src="/github.png" alt="github" className={styles.github} /></a>
+        <a href="https://www.linkedin.com/in/jefferson-roberto-bublitz-junior-338193101/"><img src="/linkedin.png" alt="linkedin" className={styles.link} /></a>        
+      </footer>
+    </div>    
   )
 }
