@@ -23,7 +23,9 @@ export default function Home() {
               />            
             </p>          
           </blockquote>        
-          <a className={styles.emoji}>🍺🧝🏻‍♂</a>
+          <div>
+            <a className={styles.emoji}>🍺🧝🏻‍♂</a>
+          </div>
         </main>
         
         <footer className={styles.footer}>        
