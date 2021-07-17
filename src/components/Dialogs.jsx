@@ -5,7 +5,7 @@ import Head from 'next/head';
 export default function Dialogs(props) {   
     
   var logo = '< JEFF />'
-
+  
   return (   
     <html lang="pt-br">
       <div className={styles.container} lang={'pt-br'}>
@@ -28,7 +28,7 @@ export default function Dialogs(props) {
           </blockquote>                  
         </main>
         <div>
-          <a className={styles.emoji}>🍺🧝🏻‍♂</a>
+          <a className={styles.emoji}>{props.person}</a>
         </div>
         
         <footer className={styles.footer}>        
