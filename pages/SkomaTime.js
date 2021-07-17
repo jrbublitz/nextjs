@@ -24,9 +24,12 @@ const skommaTime = () => {
               steps={["HELLO OUTSIDERRR, LET'S DRINK SKOOOOMAAAA !!!"]}
             />          
           </p>
-        </blockquote>
-        <a className={styles.emoji}>🍺🦁</a>
+        </blockquote>        
       </main>
+
+      <div>
+        <a className={styles.emoji}>🍺🦁</a>
+      </div>
 
       <footer className={styles.footer}>        
         <a href="https://github.com/jrbublitz"><img src="/github.png" alt="github" className={styles.github} /></a>
