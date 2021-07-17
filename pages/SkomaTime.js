@@ -10,8 +10,7 @@ const skommaTime = () => {
     <div className={styles.container}>      
       <Head>          
       <title>Adventurer</title>                 
-      <link rel="icon" href="swords.png" type="image/x-icon" />;
-
+      <link rel="icon" href="swords.png"/>;
       </Head>
       
       <header className={styles.header}>
