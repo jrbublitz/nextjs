@@ -16,6 +16,12 @@
   align-items: center;
 }
 
+.header {
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+
 .blockquote{
   border-left: .25em solid;
   padding: 0 1em;

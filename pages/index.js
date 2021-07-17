@@ -1,10 +1,15 @@
 import styles from '../styles/Home.module.css'
 import Typical from 'react-typical'
 
-export default function Home() {  
-  return (      
-    <div className={styles.container}> 
-      <main className={styles.main}>      
+
+export default function Home() {   
+  var logo = '< JEFF />';
+  return (           
+    <div className={styles.container}>
+      <header className={styles.header}>
+        <h5>{logo}</h5>
+      </header>
+      <main className={styles.main}>         
         <blockquote className={styles.blockquote}>          
           <p>
             <Typical
