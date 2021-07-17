@@ -1,11 +1,24 @@
 import styles from '../styles/Home.module.css'
 import Typical from 'react-typical'
+import Head from 'next/head'
 
 const skommaTime = () => {
-  return (
-    <div className={styles.container}>
+  var logo = '< JEFF />';
 
-      <main className={styles.main}>
+  return (
+    <html lang="pt-br">
+    <div className={styles.container}>      
+      <Head>          
+      <title>Adventurer</title>                 
+      <link rel="icon" href="swords.png" type="image/x-icon" />;
+
+      </Head>
+      
+      <header className={styles.header}>
+        <h5>{logo}</h5>
+      </header>
+
+      <main className={styles.main}>        
         <blockquote className={styles.blockquote}>
           <p>          
             <Typical
@@ -18,9 +31,10 @@ const skommaTime = () => {
 
       <footer className={styles.footer}>        
         <a href="https://github.com/jrbublitz"><img src="/github.png" alt="github" className={styles.github} /></a>
-        <a href="https://www.linkedin.com/in/jefferson-roberto-bublitz-junior-338193101/"><img src="/linkedin.png" alt="linkedin" className={styles.link} /></a>        
-      </footer>
+        <a href="https://www.linkedin.com/in/jefferson-roberto-bublitz-junior-338193101/"><img src="/linkedin.png" alt="linkedin" className={styles.link} /></a>      
+      </footer>   
     </div>
+  </html>
   );
 }
  
