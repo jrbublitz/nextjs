@@ -6,6 +6,14 @@ export default function Dialogs(props) {
     
   var logo = '< JEFF />'
   
+  function typeWriter(txt) {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  
   return (   
     <html lang="pt-br">
       <div className={styles.container} lang={'pt-br'}>
@@ -21,9 +29,10 @@ export default function Dialogs(props) {
         <main className={styles.main}>         
           <blockquote className={styles.blockquote}>          
             <p>
-              <Typical
-              steps={[props.dialog]}
-              />            
+              {/* <Typical
+              steps={[props.dialog]} */}
+              {typeWriter(props.dialog)}
+              {/* />             */}
             </p>          
           </blockquote>                  
         </main>
