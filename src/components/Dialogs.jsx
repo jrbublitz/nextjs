@@ -1,24 +1,17 @@
 import styles from '../styles/Home.module.css';
-import Typical from 'react-typical';
+import TypeScript from './TypeScript'
 import Head from 'next/head';
 
+
 export default function Dialogs(props) {   
-    
-  var logo = '< JEFF />'
-  
-  function typeWriter(txt) {
-    if (i < txt.length) {
-      document.getElementById("demo").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-  
+
+ var logo = '< JEFF />'
+
   return (   
     <html lang="pt-br">
       <div className={styles.container} lang={'pt-br'}>
         <Head>          
-          <title>Adventurer</title>                   
+          <title>Welcome Adventurer 🍺</title>                   
           <link rel="icon" href="images/swords.png"/>;
         </Head>
 
@@ -28,12 +21,7 @@ export default function Dialogs(props) {
 
         <main className={styles.main}>         
           <blockquote className={styles.blockquote}>          
-            <p>
-              {/* <Typical
-              steps={[props.dialog]} */}
-              {typeWriter(props.dialog)}
-              {/* />             */}
-            </p>          
+            <TypeScript dialog={props.dialog} />            
           </blockquote>                  
         </main>
         <div>
@@ -46,5 +34,5 @@ export default function Dialogs(props) {
         </footer>
       </div>    
     </html>        
-  )
+  ) 
 }
