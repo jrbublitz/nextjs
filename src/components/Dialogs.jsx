@@ -4,8 +4,8 @@ import Head from 'next/head';
 
 
 export default function Dialogs(props) {   
-  
-  var logo = '< JEFF />'
+
+ var logo = '< JEFF />'
 
   return (   
     <html lang="pt-br">
