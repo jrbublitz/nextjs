@@ -22,10 +22,18 @@ export default function Dialogs(props) {
         <main className={styles.main}>         
           <blockquote className={styles.blockquote}>          
             <TypeScript dialog={props.dialog} />            
-          </blockquote>                  
+          </blockquote>  
+
+          <blockquote className={styles.option}>
+            <a href="#">Test</a>  
+          </blockquote>     
+
+          <blockquote className={styles.option}>
+            <a href="#">Test</a>  
+          </blockquote>              
         </main>
-        <div>
-          <a className={styles.emoji}>{props.person}</a>
+        <div className={styles.emoji}>
+          <a>{props.person}</a>
         </div>
         
         <footer className={styles.footer}>        
