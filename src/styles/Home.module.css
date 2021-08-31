@@ -1,28 +1,27 @@
-.container {
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .main {
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
+}
+
+.text{
+  color: grey;
+  font-size: 25px;
+  width: 95%;
+  float: right;
 }
 
 .blockquote{
   border-left: .25em solid;
   padding: 0 1em;
-  color: grey;
-  font-size: 25px;
 }
 
 .emoji{
   font-size: 80px;
   text-align: center;
+  width: 100%;
+  display: inline-block;
 }
 
 .logo{
@@ -30,11 +29,11 @@
 }
 
 .link {
-  height: 2.3em;
+  height: 2em;
 }
 
 .github{
-  height: 2.5em;
+  height: 1.7em;
 }
 
 @media (max-width: 600px) {

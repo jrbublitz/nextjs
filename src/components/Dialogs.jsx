@@ -15,15 +15,18 @@ export default function Dialogs(props) {
           <link rel="icon" href="images/swords.png"/>;
         </Head>
 
-        <header className={styles.header}>
+        <header>
           <h5>{logo}</h5>
         </header>
 
-        <main className={styles.main}>         
-          <blockquote className={styles.blockquote}>          
-            <TypeScript dialog={props.dialog} />            
-          </blockquote> 
-          
+        <main className={styles.main}>       
+          <div className={styles.text}>  
+            <a>{props.name}</a>
+            <blockquote className={styles.blockquote}>          
+              <TypeScript dialog={props.dialog} />            
+            </blockquote> 
+          </div>
+
           <div className={styles.emoji}>
             <a>{props.person}</a>
          </div>              
